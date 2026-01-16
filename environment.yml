@@ -1,0 +1,14 @@
+name: cayley-schreier-env
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python>=3.10,<3.13
+  - pip
+  - numpy
+  - scipy
+  - sympy
+  - matplotlib
+  - ipykernel
+  - jupyterlab>=4
+  - ipywidgets>=8
